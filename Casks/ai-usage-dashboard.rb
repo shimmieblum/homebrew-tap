@@ -8,8 +8,8 @@
 # Gatekeeper would block a quarantined download, so the postflight below strips
 # the com.apple.quarantine attribute after install. arm64-only.
 cask "ai-usage-dashboard" do
-  version "0.3.0"
-  sha256 "01a9cd9a8944e006066222280d53825c712811b38d61884648b7b46ddb111b6b"
+  version "0.4.0"
+  sha256 "a6e1e5724959b3f219ee060d1eae554af76fd48c9c2ea287817d525efdf1e904"
 
   # DMG asset is hosted on the PUBLIC tap repo's releases so the source repo
   # (shimmieblum/ai-dashboard) can stay private while brew still downloads it.
